@@ -1,0 +1,27 @@
+
+
+
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">gestion des stagaires</div>
+            <ul class="nav-list">
+                <li><a routerLink="/home">Accueil</a></li>
+                <li><a  routerLink="/formation">formation</a></li>
+                <li><a  *ngIf="candidat()"   routerLink="/condidat">mes formation</a></li>
+                <li><a *ngIf="formateur()"  routerLink="/formateur"> formations de formateur </a></li>
+                <li><a *ngIf="admin()" routerLink="/admin">admin</a></li>
+                <li><a routerLink="/login" *ngIf="!islogin()" >espace candidat</a></li>
+                <li><a routerLink="/login" *ngIf="!islogin()">formateur</a></li>
+                <li  *ngIf="islogin()"><a (click)="logOut()">logOut</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+<router-outlet></router-outlet>

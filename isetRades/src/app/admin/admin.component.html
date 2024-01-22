@@ -1,0 +1,57 @@
+<app-header></app-header>
+<div id="div">
+    <div *ngFor="let user of users">
+        <p><input type="text"  placeholder="{{user.username}}">
+
+            <input type="text"  placeholder="{{user.role}}">
+     
+
+             <button (click)="editUser(user.id)">Edit</button>
+            <button (click)="deleteUser(user.id)">Delete</button> 
+        </p>
+        
+    </div>
+    <div>
+        <h2>Add New User</h2>
+        <p>
+            <label for="newUsername">Username:</label>
+            <input type="text" id="newUsername" [(ngModel)]="newUser.username">
+        </p>
+        <p>
+            <label for="newPassword">Password:</label>
+            <input type="password" id="newPassword" [(ngModel)]="newUser.password">
+        </p>
+        <p>
+            <label for="newRole">Role:</label>
+            <input type="text" id="newRole" [(ngModel)]="newUser.role">
+        </p>
+        
+        <button (click)="addUser()">Add User</button>
+    </div>
+    <div>
+        <h2>formation</h2>
+        <div *ngFor="let formation of lesformations">
+        
+          <div>
+            <img [src]="formation.image" alt="{{ formation.titre }}" />
+            <h3>{{ formation.titre }}</h3>
+            <p><strong>Description:</strong> {{ formation.description }}</p>
+            <p><strong>Charge:</strong> {{ formation.charge }}</p>
+            <p><strong>Horaire:</strong> {{ formation.horaire }}</p>
+            <p><strong>Programme:</strong> {{ formation.programme }}</p>
+            <p><strong>Niveau de difficulté:</strong> {{ formation.niveauDifficulte }}</p>
+            <p><strong>Tags:</strong> {{ formation.tags.join(', ') }}</p>
+            <p><strong>Catégorie:</strong> {{ formation.categorie }}</p>
+            <p><strong>Prix:</strong> {{ formation.price | currency:'USD':'symbol':'1.2-2' }}</p>
+            <button (click)="deleteFormation(formation.id)">Delete application</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        
+</div>
+
+
+
+
+

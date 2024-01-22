@@ -1,0 +1,22 @@
+<app-header></app-header>
+<h1>aaa</h1>
+<div class="content-container">
+  <div class="card-container">
+    <div class="card" *ngIf="formation" >
+      <img [src]=" formation.image" alt="{{ formation.titre }}" style="width: 100%">
+
+      <h1>Titre{{ formation.titre }}</h1>
+      <p> le description:{{formation.description}}<p>
+      <p class="price">{{ formation.price }}</p>
+      <p>{{id}}</p>
+      <p><button [routerLink]="'/formations/' + formation.id">Details</button></p>
+    </div>
+
+
+
+
+
+   
+ 
+</div>
+

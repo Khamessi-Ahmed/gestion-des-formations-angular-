@@ -1,0 +1,27 @@
+<app-header></app-header>
+<h1>aaa</h1>
+<div class="content-container">
+  <div class="card-container">
+  
+    <div class="card" *ngFor=" let lessession of session" >
+    <h2> id de ssesion  :  {{lessession.id}}</h2>
+
+      <p>  le nombre de participants   :{{ lessession.participants }}<p>
+      <p> l id de formation de ce ssesion  :{{lessession.formation_id}}</p>
+      
+
+     <p>l id de formateur    : {{lessession.train}}  </p> 
+     <p>le  condidat registre :{{lessession.registerCandidat}}</p>
+     <p>date de start : {{lessession.start_date}}</p>
+     <p>dete de end :{{lessession.end_date}}</p>
+      
+      <p><button [routerLink]="'/formations/' + lessession.formation_id">Details</button></p>
+    </div>
+    
+    </div>
+    
+  
+  </div>
+
+
+

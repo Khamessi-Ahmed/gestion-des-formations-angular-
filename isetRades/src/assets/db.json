@@ -1,0 +1,316 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "wassim",
+      "password": "bejawi",
+      "role": "candidat",
+      "formations": []
+    },
+    {
+      "id": 2,
+      "username": "amine",
+      "password": "00000001",
+      "role": "formateur",
+      "formations": []
+    },
+    {
+      "id": 3,
+      "username": "ahmed",
+      "password": "khammassi",
+      "role": "admin",
+      "formations": []
+    },
+    {
+      "username": "ala",
+      "password": "frfr",
+      "role": "condidat",
+      "formations": [],
+      "id": 4
+    },
+    {
+      "username": "aziz",
+      "password": "azerty",
+      "role": "condidat",
+      "formations": [],
+      "id": 5
+    },
+    {
+      "username": "osama",
+      "password": "baw123",
+      "role": "condidat",
+      "formations": [],
+      "id": 6
+    }
+  ],
+  "formations": [
+    {
+      "id": 1,
+      "titre": "Web Development Bootcamp",
+      "description": "Comprehensive bootcamp covering HTML, CSS, and JavaScript for web development.",
+      "charge": "40 hours",
+      "horaire": "Flexible schedule",
+      "programme": "Hands-on projects, coding exercises, and real-world applications.",
+      "niveauDifficulte": "Intermediate",
+      "tags": [
+        "web development",
+        "coding",
+        "programming"
+      ],
+      "categorie": "Technology",
+      "price": 199.99,
+      "image": "https://picsum.photos/300/?random=1"
+    },
+    {
+      "id": 2,
+      "titre": "Data Science Fundamentals",
+      "description": "Introduction to data science with emphasis on data analysis and machine learning basics.",
+      "charge": "35 hours",
+      "horaire": "Weekdays evenings",
+      "programme": "Data visualization, statistical analysis, and machine learning algorithms.",
+      "niveauDifficulte": "Intermediate",
+      "tags": [
+        "data science",
+        "machine learning",
+        "analytics"
+      ],
+      "categorie": "Technology",
+      "price": 249.99,
+      "image": "https://picsum.photos/300/?random=2"
+    },
+    {
+      "id": 3,
+      "titre": "Digital Marketing Masterclass",
+      "description": "In-depth training on digital marketing strategies, SEO, and social media marketing.",
+      "charge": "30 hours",
+      "horaire": "Weekends",
+      "programme": "SEO optimization, social media campaigns, and analytics tools.",
+      "niveauDifficulte": "Beginner",
+      "tags": [
+        "digital marketing",
+        "SEO",
+        "social media"
+      ],
+      "categorie": "Marketing",
+      "price": 149.99,
+      "image": "https://picsum.photos/300/?random=3"
+    },
+    {
+      "id": 4,
+      "titre": "Graphic Design Essentials",
+      "description": "Fundamentals of graphic design, covering tools like Adobe Photoshop and Illustrator.",
+      "charge": "25 hours",
+      "horaire": "Evenings",
+      "programme": "Practical design projects, color theory, and typography basics.",
+      "niveauDifficulte": "Beginner",
+      "tags": [
+        "graphic design",
+        "Adobe Photoshop",
+        "Illustrator"
+      ],
+      "categorie": "Design",
+      "price": 129.99,
+      "image": "https://picsum.photos/300/?random=4"
+    },
+    {
+      "id": 5,
+      "titre": "Financial Planning Workshop",
+      "description": "Learn essential financial planning skills, including budgeting and investment strategies.",
+      "charge": "20 hours",
+      "horaire": "Saturdays",
+      "programme": "Budgeting exercises, investment simulations, and retirement planning.",
+      "niveauDifficulte": "Intermediate",
+      "tags": [
+        "financial planning",
+        "budgeting",
+        "investment"
+      ],
+      "categorie": "Finance",
+      "price": 179.99,
+      "image": "https://picsum.photos/300/?random=5"
+    },
+    {
+      "id": 6,
+      "titre": "Photography Basics",
+      "description": "Introduction to photography techniques, camera settings, and composition principles.",
+      "charge": "15 hours",
+      "horaire": "Weekdays mornings",
+      "programme": "Hands-on photography sessions, photo editing basics, and portfolio building.",
+      "niveauDifficulte": "Beginner",
+      "tags": [
+        "photography",
+        "camera basics",
+        "composition"
+      ],
+      "categorie": "Art",
+      "price": 99.99,
+      "image": "https://picsum.photos/300/?random=6"
+    },
+    {
+      "id": 7,
+      "titre": "Leadership Skills Seminar",
+      "description": "Develop leadership skills, effective communication, and team management strategies.",
+      "charge": "18 hours",
+      "horaire": "Flexible schedule",
+      "programme": "Case studies, role-playing exercises, and leadership development plans.",
+      "niveauDifficulte": "Intermediate",
+      "tags": [
+        "leadership",
+        "communication",
+        "team management"
+      ],
+      "categorie": "Business",
+      "price": 159.99,
+      "image": "https://picsum.photos/300/?random=7"
+    },
+    {
+      "id": 8,
+      "titre": "Language Learning Intensive",
+      "description": "Immersive language learning program focusing on vocabulary, grammar, and conversation.",
+      "charge": "50 hours",
+      "horaire": "Daily sessions",
+      "programme": "Interactive lessons, language games, and cultural immersion activities.",
+      "niveauDifficulte": "Intermediate",
+      "tags": [
+        "language learning",
+        "language immersion",
+        "conversation"
+      ],
+      "categorie": "Education",
+      "price": 199.99,
+      "image": "https://picsum.photos/300/?random=8"
+    },
+    {
+      "id": 9,
+      "titre": "Cybersecurity Certification",
+      "description": "Comprehensive cybersecurity training with hands-on labs and certification preparation.",
+      "charge": "40 hours",
+      "horaire": "Evenings",
+      "programme": "Ethical hacking, network security, and threat detection.",
+      "niveauDifficulte": "Advanced",
+      "tags": [
+        "cybersecurity",
+        "ethical hacking",
+        "network security"
+      ],
+      "categorie": "Technology",
+      "price": 299.99,
+      "image": "https://picsum.photos/300/?random=9"
+    },
+    {
+      "id": 10,
+      "titre": "Yoga and Mindfulness Retreat",
+      "description": "Holistic wellness program with yoga, meditation, and mindfulness practices.",
+      "charge": "25 hours",
+      "horaire": "Weekends",
+      "programme": "Yoga sessions, guided meditations, and mindfulness workshops.",
+      "niveauDifficulte": "Beginner",
+      "tags": [
+        "yoga",
+        "mindfulness",
+        "wellness"
+      ],
+      "categorie": "Health",
+      "price": 149.99,
+      "image": "https://picsum.photos/300/?random=10"
+    }
+  ],
+  "sessions": [
+    {
+      "id": 1,
+      "formation_id": 1,
+      "start_date": "2023-01-10",
+      "end_date": "2023-02-10",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "registerCandidat": 14
+    },
+    {
+      "id": 2,
+      "formation_id": 1,
+      "start_date": "2023-02-15",
+      "end_date": "2023-03-15",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        3,
+        2,
+        2,
+        2,
+        2
+      ],
+      "registerCandidat": 5
+    },
+    {
+      "id": 3,
+      "formation_id": 2,
+      "start_date": "2023-03-20",
+      "end_date": "2023-04-20",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        1,
+        2,
+        3,
+        3,
+        3
+      ],
+      "registerCandidat": 5
+    },
+    {
+      "id": 4,
+      "formation_id": 1,
+      "start_date": "2023-04-01",
+      "end_date": "2023-05-01",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        2,
+        4
+      ],
+      "registerCandidat": 2
+    },
+    {
+      "id": 5,
+      "formation_id": 1,
+      "start_date": "2023-05-15",
+      "end_date": "2023-06-15",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        1,
+        3
+      ],
+      "registerCandidat": 2
+    },
+    {
+      "id": 6,
+      "formation_id": 2,
+      "start_date": "2023-07-01",
+      "end_date": "2023-08-01",
+      "trainers": [
+        2
+      ],
+      "participants": [
+        2,
+        3,
+        4
+      ],
+      "registerCandidat": 3
+    }
+  ]
+}

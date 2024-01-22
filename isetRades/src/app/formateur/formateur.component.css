@@ -1,0 +1,71 @@
+
+.search-container {
+    margin: 20px 0;
+  }
+  
+  /* Style for the input inside the search container */
+  .search-container input {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the content container */
+  .content-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for the card container */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* Style for each individual card */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the card image */
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the card title */
+  .card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the price paragraph */
+  .card .price {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Style for the button inside the card */
+  .card button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the button */
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  

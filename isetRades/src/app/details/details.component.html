@@ -1,0 +1,25 @@
+<app-header></app-header>
+<div>
+<div *ngIf="formation">
+    <h1> titre :  {{formation.titre}}</h1>
+    <img [src]="formation.image" alt="{{formation.title}}">
+    
+    <p>  description {{formation.description}}</p>
+    <p> nivoux : {{formation.niveauDifficulte}}</p>
+    <p> horaire {{formation.horaire}}</p>
+    <p><strong>Tags:</strong> {{ formation.tags.join(', ') }}</p>
+     <p><strong>Catégorie:</strong> {{ formation.categorie }}</p>
+
+    <p>   Prix :{{formation.price}}</p>
+
+</div>
+<div *ngIf="session">
+
+    <h3>appartien ala session  {{session.id}}</h3>
+    <P>date de start   :{{session.start_date}}</P>
+    <P> date de fin    :{{session.end_date}}</P>
+    <P>formateur    :{{train.username}}</P>
+    <p>condidat registre     :{{session.registerCandidat}}</p>
+</div>
+<button value="" *ngIf="islogin()" (click)="inscrti()">inscrit</button>
+</div>
